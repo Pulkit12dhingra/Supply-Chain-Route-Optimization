@@ -9,8 +9,8 @@ client = openrouteservice.Client(key=API_KEY)
 
 # Load datasets (assuming they are generated as in previous steps)
 def load_data():
-    shipments_df = pd.read_csv("shipments.csv")
-    estimations_df = pd.read_csv("estimations.csv")
+    shipments_df = pd.read_csv("data/shipments.csv")
+    estimations_df = pd.read_csv("data/estimations.csv")
     return shipments_df, estimations_df
 
 # Streamlit UI
