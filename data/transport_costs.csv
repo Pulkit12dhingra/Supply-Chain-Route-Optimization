@@ -1,0 +1,4 @@
+Route,Cost_per_KM,Fragile_Security,Time_per_KM
+Land,0.5,Likely to break,1.2
+Airplane,2.0,More secure,0.5
+Train,0.8,Least secure,1.0
